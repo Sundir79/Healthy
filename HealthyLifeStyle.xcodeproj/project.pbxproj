@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072D5B68017923CEB8AFE347 /* Pods_HealthyLifeStyleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F777CCDD1D29ECA80D899795 /* Pods_HealthyLifeStyleTests.framework */; };
+		58DC30819E57B0178F7F3853 /* Pods_HealthyLifeStyleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A537ABC41CB466F850BEDCB1 /* Pods_HealthyLifeStyleUITests.framework */; };
+		7E06A85082C1C0CA086CC1A8 /* Pods_HealthyLifeStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5899C803EC26C3DC65C8CC36 /* Pods_HealthyLifeStyle.framework */; };
+		EC099196227028F4008D62F5 /* BMICalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC099195227028F4008D62F5 /* BMICalculatorScreen.swift */; };
+		EC09919822702919008D62F5 /* BMICalculatorScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC09919722702919008D62F5 /* BMICalculatorScreen.xib */; };
+		EC09919B22705D2E008D62F5 /* LifeStyleDiseaseFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09919A22705D2E008D62F5 /* LifeStyleDiseaseFactsViewController.swift */; };
+		EC09919E22705F89008D62F5 /* LifeStyleDiseaseFactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09919D22705F89008D62F5 /* LifeStyleDiseaseFactsTableViewCell.swift */; };
+		EC260581226E0367004EFBA0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC260580226E0367004EFBA0 /* LoginViewController.swift */; };
+		EC260584226E0837004EFBA0 /* CustomRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC260583226E0837004EFBA0 /* CustomRegisterView.swift */; };
+		EC260586226E084B004EFBA0 /* CustomRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC260585226E084B004EFBA0 /* CustomRegisterView.xib */; };
+		EC260588226E1442004EFBA0 /* round_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC260587226E1442004EFBA0 /* round_view.swift */; };
+		EC99BEEF226F140E008D5D46 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99BEEE226F140E008D5D46 /* DashboardViewController.swift */; };
+		EC99BEF1226F1444008D5D46 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99BEF0226F1444008D5D46 /* DashboardTableViewCell.swift */; };
+		EC99BEF7226F1976008D5D46 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC99BEF5226F1975008D5D46 /* CustomDatePicker.swift */; };
+		EC99BEF8226F1976008D5D46 /* CustomDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC99BEF6226F1975008D5D46 /* CustomDatePicker.xib */; };
+		ECBE815122706646005A81AE /* BasicFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE815022706646005A81AE /* BasicFactsViewController.swift */; };
+		ECBE8154227066B6005A81AE /* BasicFactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8153227066B6005A81AE /* BasicFactsTableViewCell.swift */; };
+		ECBE815622706A00005A81AE /* CustomVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE815522706A00005A81AE /* CustomVideoTableViewCell.swift */; };
+		ECBE81592270707D005A81AE /* ChangeHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE81582270707D005A81AE /* ChangeHabitsViewController.swift */; };
+		ECBE815C227070C6005A81AE /* ChangeHabitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE815B227070C6005A81AE /* ChangeHabitsTableViewCell.swift */; };
+		ECBE815F227076EE005A81AE /* HeaderAdvanced.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE815E227076EE005A81AE /* HeaderAdvanced.xib */; };
+		ECBE816122707867005A81AE /* HeaderAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE816022707867005A81AE /* HeaderAdvanced.swift */; };
+		ECBE816422707ABE005A81AE /* AdvancedLifeStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE816322707ABE005A81AE /* AdvancedLifeStyleViewController.swift */; };
+		ECBE816622707AF4005A81AE /* AdvancedLifeStyleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE816522707AF4005A81AE /* AdvancedLifeStyleTableViewCell.swift */; };
+		ECBE816A22707C43005A81AE /* ModelAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE816922707C43005A81AE /* ModelAdvanced.swift */; };
+		ECBE816D22709121005A81AE /* SubAdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE816C22709121005A81AE /* SubAdvancedViewController.swift */; };
+		ECBE8170227092C0005A81AE /* NavigationSubAdvancedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE816F227092C0005A81AE /* NavigationSubAdvancedCollectionViewCell.swift */; };
+		ECBE8172227092FD005A81AE /* TotalSubAdvancedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8171227092FD005A81AE /* TotalSubAdvancedCollectionViewCell.swift */; };
+		ECBE817422709384005A81AE /* TotalSubAdvancedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE817322709384005A81AE /* TotalSubAdvancedTableViewCell.swift */; };
 		ECC8228D2269C987008222E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8228C2269C987008222E1 /* AppDelegate.swift */; };
 		ECC8228F2269C987008222E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8228E2269C987008222E1 /* ViewController.swift */; };
 		ECC822922269C987008222E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC822902269C987008222E1 /* Main.storyboard */; };
@@ -15,6 +44,12 @@
 		ECC8229A2269C989008222E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC822982269C989008222E1 /* LaunchScreen.storyboard */; };
 		ECC822A52269C989008222E1 /* HealthyLifeStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822A42269C989008222E1 /* HealthyLifeStyleTests.swift */; };
 		ECC822B02269C989008222E1 /* HealthyLifeStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822AF2269C989008222E1 /* HealthyLifeStyleUITests.swift */; };
+		ECC822C02269CA4E008222E1 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822BF2269CA4E008222E1 /* ThemeManager.swift */; };
+		ECC822C22269CB50008222E1 /* EnumOfThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822C12269CB50008222E1 /* EnumOfThemeManager.swift */; };
+		ECC822C42269CBF1008222E1 /* ColorsThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822C32269CBF1008222E1 /* ColorsThemeManager.swift */; };
+		ECC822C72269CCF4008222E1 /* BaseClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822C62269CCF4008222E1 /* BaseClassViewController.swift */; };
+		ECC822C92269CD8E008222E1 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822C82269CD8E008222E1 /* CustomGradientView.swift */; };
+		ECC822CC2269D5D6008222E1 /* ChooseYourRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC822CB2269D5D6008222E1 /* ChooseYourRoleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +70,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CB09787A41F865B2F999A0F /* Pods-HealthyLifeStyleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLifeStyleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLifeStyleUITests/Pods-HealthyLifeStyleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		378A2931933448DDAC954D9B /* Pods-HealthyLifeStyleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLifeStyleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLifeStyleTests/Pods-HealthyLifeStyleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44BB2647F3B04745C8F70C9A /* Pods-HealthyLifeStyleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLifeStyleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLifeStyleUITests/Pods-HealthyLifeStyleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D0136D2E5E1DDE94E750254 /* Pods-HealthyLifeStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLifeStyle.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLifeStyle/Pods-HealthyLifeStyle.release.xcconfig"; sourceTree = "<group>"; };
+		5899C803EC26C3DC65C8CC36 /* Pods_HealthyLifeStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthyLifeStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A537ABC41CB466F850BEDCB1 /* Pods_HealthyLifeStyleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthyLifeStyleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77E55D9435696848888962D /* Pods-HealthyLifeStyleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLifeStyleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLifeStyleTests/Pods-HealthyLifeStyleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5877CEBD585AD13766F13BE /* Pods-HealthyLifeStyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthyLifeStyle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthyLifeStyle/Pods-HealthyLifeStyle.debug.xcconfig"; sourceTree = "<group>"; };
+		EC099195227028F4008D62F5 /* BMICalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorScreen.swift; sourceTree = "<group>"; };
+		EC09919722702919008D62F5 /* BMICalculatorScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BMICalculatorScreen.xib; sourceTree = "<group>"; };
+		EC09919A22705D2E008D62F5 /* LifeStyleDiseaseFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeStyleDiseaseFactsViewController.swift; sourceTree = "<group>"; };
+		EC09919D22705F89008D62F5 /* LifeStyleDiseaseFactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeStyleDiseaseFactsTableViewCell.swift; sourceTree = "<group>"; };
+		EC260580226E0367004EFBA0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC260583226E0837004EFBA0 /* CustomRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRegisterView.swift; sourceTree = "<group>"; };
+		EC260585226E084B004EFBA0 /* CustomRegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomRegisterView.xib; sourceTree = "<group>"; };
+		EC260587226E1442004EFBA0 /* round_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = round_view.swift; sourceTree = "<group>"; };
+		EC99BEEE226F140E008D5D46 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		EC99BEF0226F1444008D5D46 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		EC99BEF5226F1975008D5D46 /* CustomDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		EC99BEF6226F1975008D5D46 /* CustomDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomDatePicker.xib; sourceTree = "<group>"; };
+		ECBE815022706646005A81AE /* BasicFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFactsViewController.swift; sourceTree = "<group>"; };
+		ECBE8153227066B6005A81AE /* BasicFactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFactsTableViewCell.swift; sourceTree = "<group>"; };
+		ECBE815522706A00005A81AE /* CustomVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoTableViewCell.swift; sourceTree = "<group>"; };
+		ECBE81582270707D005A81AE /* ChangeHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeHabitsViewController.swift; sourceTree = "<group>"; };
+		ECBE815B227070C6005A81AE /* ChangeHabitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeHabitsTableViewCell.swift; sourceTree = "<group>"; };
+		ECBE815E227076EE005A81AE /* HeaderAdvanced.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderAdvanced.xib; sourceTree = "<group>"; };
+		ECBE816022707867005A81AE /* HeaderAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAdvanced.swift; sourceTree = "<group>"; };
+		ECBE816322707ABE005A81AE /* AdvancedLifeStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLifeStyleViewController.swift; sourceTree = "<group>"; };
+		ECBE816522707AF4005A81AE /* AdvancedLifeStyleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLifeStyleTableViewCell.swift; sourceTree = "<group>"; };
+		ECBE816922707C43005A81AE /* ModelAdvanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelAdvanced.swift; sourceTree = "<group>"; };
+		ECBE816C22709121005A81AE /* SubAdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubAdvancedViewController.swift; sourceTree = "<group>"; };
+		ECBE816F227092C0005A81AE /* NavigationSubAdvancedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSubAdvancedCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECBE8171227092FD005A81AE /* TotalSubAdvancedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalSubAdvancedCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECBE817322709384005A81AE /* TotalSubAdvancedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalSubAdvancedTableViewCell.swift; sourceTree = "<group>"; };
 		ECC822892269C987008222E1 /* HealthyLifeStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyLifeStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC8228C2269C987008222E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC8228E2269C987008222E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +118,13 @@
 		ECC822AB2269C989008222E1 /* HealthyLifeStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyLifeStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC822AF2269C989008222E1 /* HealthyLifeStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyLifeStyleUITests.swift; sourceTree = "<group>"; };
 		ECC822B12269C989008222E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC822BF2269CA4E008222E1 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		ECC822C12269CB50008222E1 /* EnumOfThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumOfThemeManager.swift; sourceTree = "<group>"; };
+		ECC822C32269CBF1008222E1 /* ColorsThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsThemeManager.swift; sourceTree = "<group>"; };
+		ECC822C62269CCF4008222E1 /* BaseClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClassViewController.swift; sourceTree = "<group>"; };
+		ECC822C82269CD8E008222E1 /* CustomGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
+		ECC822CB2269D5D6008222E1 /* ChooseYourRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourRoleViewController.swift; sourceTree = "<group>"; };
+		F777CCDD1D29ECA80D899795 /* Pods_HealthyLifeStyleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthyLifeStyleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E06A85082C1C0CA086CC1A8 /* Pods_HealthyLifeStyle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072D5B68017923CEB8AFE347 /* Pods_HealthyLifeStyleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +148,180 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DC30819E57B0178F7F3853 /* Pods_HealthyLifeStyleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C690C8773EBAA1D05706FA72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5877CEBD585AD13766F13BE /* Pods-HealthyLifeStyle.debug.xcconfig */,
+				4D0136D2E5E1DDE94E750254 /* Pods-HealthyLifeStyle.release.xcconfig */,
+				378A2931933448DDAC954D9B /* Pods-HealthyLifeStyleTests.debug.xcconfig */,
+				B77E55D9435696848888962D /* Pods-HealthyLifeStyleTests.release.xcconfig */,
+				0CB09787A41F865B2F999A0F /* Pods-HealthyLifeStyleUITests.debug.xcconfig */,
+				44BB2647F3B04745C8F70C9A /* Pods-HealthyLifeStyleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC09919422702866008D62F5 /* BMICalculatorScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EC099195227028F4008D62F5 /* BMICalculatorScreen.swift */,
+				EC09919722702919008D62F5 /* BMICalculatorScreen.xib */,
+			);
+			path = BMICalculatorScreen;
+			sourceTree = "<group>";
+		};
+		EC09919922705CFC008D62F5 /* LifeStyleDisease */ = {
+			isa = PBXGroup;
+			children = (
+				EC09919A22705D2E008D62F5 /* LifeStyleDiseaseFactsViewController.swift */,
+			);
+			path = LifeStyleDisease;
+			sourceTree = "<group>";
+		};
+		EC09919C22705F54008D62F5 /* LifeStyleDiseaseFacts */ = {
+			isa = PBXGroup;
+			children = (
+				EC09919D22705F89008D62F5 /* LifeStyleDiseaseFactsTableViewCell.swift */,
+			);
+			path = LifeStyleDiseaseFacts;
+			sourceTree = "<group>";
+		};
+		EC260582226E0813004EFBA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE815D22707440005A81AE /* Advanced */,
+				ECBE815A227070AD005A81AE /* ChangeHabits */,
+				ECBE815222706692005A81AE /* BasicFacts */,
+				EC09919C22705F54008D62F5 /* LifeStyleDiseaseFacts */,
+				EC09919422702866008D62F5 /* BMICalculatorScreen */,
+				EC99BEF4226F1937008D5D46 /* CustomRegister */,
+				EC99BEF3226F1928008D5D46 /* CustomDatePicker */,
+				EC99BEF2226F1460008D5D46 /* Dashboard */,
+				EC260587226E1442004EFBA0 /* round_view.swift */,
+				ECBE815522706A00005A81AE /* CustomVideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC99BEF2226F1460008D5D46 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC99BEF0226F1444008D5D46 /* DashboardTableViewCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		EC99BEF3226F1928008D5D46 /* CustomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EC99BEF5226F1975008D5D46 /* CustomDatePicker.swift */,
+				EC99BEF6226F1975008D5D46 /* CustomDatePicker.xib */,
+			);
+			path = CustomDatePicker;
+			sourceTree = "<group>";
+		};
+		EC99BEF4226F1937008D5D46 /* CustomRegister */ = {
+			isa = PBXGroup;
+			children = (
+				EC260583226E0837004EFBA0 /* CustomRegisterView.swift */,
+				EC260585226E084B004EFBA0 /* CustomRegisterView.xib */,
+			);
+			path = CustomRegister;
+			sourceTree = "<group>";
+		};
+		ECBE814F22706614005A81AE /* BasicFacts */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE815022706646005A81AE /* BasicFactsViewController.swift */,
+			);
+			path = BasicFacts;
+			sourceTree = "<group>";
+		};
+		ECBE815222706692005A81AE /* BasicFacts */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE8153227066B6005A81AE /* BasicFactsTableViewCell.swift */,
+			);
+			path = BasicFacts;
+			sourceTree = "<group>";
+		};
+		ECBE815722707061005A81AE /* ChangeHabits */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE81582270707D005A81AE /* ChangeHabitsViewController.swift */,
+			);
+			path = ChangeHabits;
+			sourceTree = "<group>";
+		};
+		ECBE815A227070AD005A81AE /* ChangeHabits */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE815B227070C6005A81AE /* ChangeHabitsTableViewCell.swift */,
+			);
+			path = ChangeHabits;
+			sourceTree = "<group>";
+		};
+		ECBE815D22707440005A81AE /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE816E2270929F005A81AE /* SubAdvanced */,
+				ECBE815E227076EE005A81AE /* HeaderAdvanced.xib */,
+				ECBE816022707867005A81AE /* HeaderAdvanced.swift */,
+				ECBE816522707AF4005A81AE /* AdvancedLifeStyleTableViewCell.swift */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		ECBE816222707A96005A81AE /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE816B227090FF005A81AE /* SubAdvanced */,
+				ECBE816322707ABE005A81AE /* AdvancedLifeStyleViewController.swift */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		ECBE816722707C22005A81AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE816822707C2B005A81AE /* Advanced */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECBE816822707C2B005A81AE /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE816922707C43005A81AE /* ModelAdvanced.swift */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		ECBE816B227090FF005A81AE /* SubAdvanced */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE816C22709121005A81AE /* SubAdvancedViewController.swift */,
+			);
+			path = SubAdvanced;
+			sourceTree = "<group>";
+		};
+		ECBE816E2270929F005A81AE /* SubAdvanced */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE816F227092C0005A81AE /* NavigationSubAdvancedCollectionViewCell.swift */,
+				ECBE8171227092FD005A81AE /* TotalSubAdvancedCollectionViewCell.swift */,
+				ECBE817322709384005A81AE /* TotalSubAdvancedTableViewCell.swift */,
+			);
+			path = SubAdvanced;
+			sourceTree = "<group>";
+		};
 		ECC822802269C987008222E1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +329,8 @@
 				ECC822A32269C989008222E1 /* HealthyLifeStyleTests */,
 				ECC822AE2269C989008222E1 /* HealthyLifeStyleUITests */,
 				ECC8228A2269C987008222E1 /* Products */,
+				C690C8773EBAA1D05706FA72 /* Pods */,
+				EF9FCC1F77D52831A8EA371F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +347,11 @@
 		ECC8228B2269C987008222E1 /* HealthyLifeStyle */ = {
 			isa = PBXGroup;
 			children = (
+				ECBE816722707C22005A81AE /* Models */,
+				EC260582226E0813004EFBA0 /* Views */,
+				ECC822CA2269D5B7008222E1 /* Controllers */,
+				ECC822C52269CCD9008222E1 /* BaseClassViewController */,
+				ECC822BD2269CA09008222E1 /* Helper */,
 				ECC8228C2269C987008222E1 /* AppDelegate.swift */,
 				ECC8228E2269C987008222E1 /* ViewController.swift */,
 				ECC822902269C987008222E1 /* Main.storyboard */,
@@ -128,6 +381,57 @@
 			path = HealthyLifeStyleUITests;
 			sourceTree = "<group>";
 		};
+		ECC822BD2269CA09008222E1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ECC822BE2269CA2C008222E1 /* ThemeManager */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ECC822BE2269CA2C008222E1 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				ECC822BF2269CA4E008222E1 /* ThemeManager.swift */,
+				ECC822C12269CB50008222E1 /* EnumOfThemeManager.swift */,
+				ECC822C32269CBF1008222E1 /* ColorsThemeManager.swift */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		ECC822C52269CCD9008222E1 /* BaseClassViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ECC822C62269CCF4008222E1 /* BaseClassViewController.swift */,
+				ECC822C82269CD8E008222E1 /* CustomGradientView.swift */,
+			);
+			path = BaseClassViewController;
+			sourceTree = "<group>";
+		};
+		ECC822CA2269D5B7008222E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE816222707A96005A81AE /* Advanced */,
+				ECBE815722707061005A81AE /* ChangeHabits */,
+				ECBE814F22706614005A81AE /* BasicFacts */,
+				EC09919922705CFC008D62F5 /* LifeStyleDisease */,
+				ECC822CB2269D5D6008222E1 /* ChooseYourRoleViewController.swift */,
+				EC260580226E0367004EFBA0 /* LoginViewController.swift */,
+				EC99BEEE226F140E008D5D46 /* DashboardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF9FCC1F77D52831A8EA371F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5899C803EC26C3DC65C8CC36 /* Pods_HealthyLifeStyle.framework */,
+				F777CCDD1D29ECA80D899795 /* Pods_HealthyLifeStyleTests.framework */,
+				A537ABC41CB466F850BEDCB1 /* Pods_HealthyLifeStyleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +439,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECC822B42269C989008222E1 /* Build configuration list for PBXNativeTarget "HealthyLifeStyle" */;
 			buildPhases = (
+				040C916E9E91D3145415B618 /* [CP] Check Pods Manifest.lock */,
 				ECC822852269C987008222E1 /* Sources */,
 				ECC822862269C987008222E1 /* Frameworks */,
 				ECC822872269C987008222E1 /* Resources */,
+				27680B4647D9A00F7412DE76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +458,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECC822B72269C989008222E1 /* Build configuration list for PBXNativeTarget "HealthyLifeStyleTests" */;
 			buildPhases = (
+				BA176DAC5DB03D276E6E526A /* [CP] Check Pods Manifest.lock */,
 				ECC8229C2269C989008222E1 /* Sources */,
 				ECC8229D2269C989008222E1 /* Frameworks */,
 				ECC8229E2269C989008222E1 /* Resources */,
@@ -170,6 +477,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECC822BA2269C989008222E1 /* Build configuration list for PBXNativeTarget "HealthyLifeStyleUITests" */;
 			buildPhases = (
+				B0306810143AB636F67A3B5D /* [CP] Check Pods Manifest.lock */,
 				ECC822A72269C989008222E1 /* Sources */,
 				ECC822A82269C989008222E1 /* Frameworks */,
 				ECC822A92269C989008222E1 /* Resources */,
@@ -233,7 +541,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECC8229A2269C989008222E1 /* LaunchScreen.storyboard in Resources */,
+				ECBE815F227076EE005A81AE /* HeaderAdvanced.xib in Resources */,
+				EC99BEF8226F1976008D5D46 /* CustomDatePicker.xib in Resources */,
+				EC09919822702919008D62F5 /* BMICalculatorScreen.xib in Resources */,
 				ECC822972269C989008222E1 /* Assets.xcassets in Resources */,
+				EC260586226E084B004EFBA0 /* CustomRegisterView.xib in Resources */,
 				ECC822922269C987008222E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +566,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		040C916E9E91D3145415B618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthyLifeStyle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27680B4647D9A00F7412DE76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HealthyLifeStyle/Pods-HealthyLifeStyle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthyLifeStyle/Pods-HealthyLifeStyle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0306810143AB636F67A3B5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthyLifeStyleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA176DAC5DB03D276E6E526A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthyLifeStyleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECC822852269C987008222E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC09919B22705D2E008D62F5 /* LifeStyleDiseaseFactsViewController.swift in Sources */,
+				ECBE816622707AF4005A81AE /* AdvancedLifeStyleTableViewCell.swift in Sources */,
+				ECC822CC2269D5D6008222E1 /* ChooseYourRoleViewController.swift in Sources */,
+				ECBE8154227066B6005A81AE /* BasicFactsTableViewCell.swift in Sources */,
+				ECBE817422709384005A81AE /* TotalSubAdvancedTableViewCell.swift in Sources */,
 				ECC8228F2269C987008222E1 /* ViewController.swift in Sources */,
+				ECBE8170227092C0005A81AE /* NavigationSubAdvancedCollectionViewCell.swift in Sources */,
+				ECC822C72269CCF4008222E1 /* BaseClassViewController.swift in Sources */,
+				ECC822C42269CBF1008222E1 /* ColorsThemeManager.swift in Sources */,
+				ECBE815122706646005A81AE /* BasicFactsViewController.swift in Sources */,
 				ECC822952269C987008222E1 /* HealthyLifeStyle.xcdatamodeld in Sources */,
+				EC99BEF7226F1976008D5D46 /* CustomDatePicker.swift in Sources */,
+				EC099196227028F4008D62F5 /* BMICalculatorScreen.swift in Sources */,
+				EC09919E22705F89008D62F5 /* LifeStyleDiseaseFactsTableViewCell.swift in Sources */,
 				ECC8228D2269C987008222E1 /* AppDelegate.swift in Sources */,
+				ECBE816D22709121005A81AE /* SubAdvancedViewController.swift in Sources */,
+				EC99BEF1226F1444008D5D46 /* DashboardTableViewCell.swift in Sources */,
+				ECC822C22269CB50008222E1 /* EnumOfThemeManager.swift in Sources */,
+				ECBE816422707ABE005A81AE /* AdvancedLifeStyleViewController.swift in Sources */,
+				EC99BEEF226F140E008D5D46 /* DashboardViewController.swift in Sources */,
+				ECBE815C227070C6005A81AE /* ChangeHabitsTableViewCell.swift in Sources */,
+				ECBE816A22707C43005A81AE /* ModelAdvanced.swift in Sources */,
+				ECBE815622706A00005A81AE /* CustomVideoTableViewCell.swift in Sources */,
+				ECC822C02269CA4E008222E1 /* ThemeManager.swift in Sources */,
+				EC260581226E0367004EFBA0 /* LoginViewController.swift in Sources */,
+				ECBE8172227092FD005A81AE /* TotalSubAdvancedCollectionViewCell.swift in Sources */,
+				EC260588226E1442004EFBA0 /* round_view.swift in Sources */,
+				ECC822C92269CD8E008222E1 /* CustomGradientView.swift in Sources */,
+				ECBE81592270707D005A81AE /* ChangeHabitsViewController.swift in Sources */,
+				ECBE816122707867005A81AE /* HeaderAdvanced.swift in Sources */,
+				EC260584226E0837004EFBA0 /* CustomRegisterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +849,7 @@
 		};
 		ECC822B52269C989008222E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5877CEBD585AD13766F13BE /* Pods-HealthyLifeStyle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +868,7 @@
 		};
 		ECC822B62269C989008222E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0136D2E5E1DDE94E750254 /* Pods-HealthyLifeStyle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +887,7 @@
 		};
 		ECC822B82269C989008222E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378A2931933448DDAC954D9B /* Pods-HealthyLifeStyleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +909,7 @@
 		};
 		ECC822B92269C989008222E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77E55D9435696848888962D /* Pods-HealthyLifeStyleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +931,7 @@
 		};
 		ECC822BB2269C989008222E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB09787A41F865B2F999A0F /* Pods-HealthyLifeStyleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +952,7 @@
 		};
 		ECC822BC2269C989008222E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BB2647F3B04745C8F70C9A /* Pods-HealthyLifeStyleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

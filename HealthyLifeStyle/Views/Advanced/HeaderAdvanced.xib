@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderAdvanced" customModule="HealthyLifeStyle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LY1-q7-Ujs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="LifeStyle Disease" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="59o-Po-4ej">
+                            <rect key="frame" x="12" y="12" width="327" height="76"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-down" translatesAutoresizingMaskIntoConstraints="NO" id="Zbu-tb-Qs2">
+                            <rect key="frame" x="347" y="40" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="eAf-Yg-yfB"/>
+                                <constraint firstAttribute="width" secondItem="Zbu-tb-Qs2" secondAttribute="height" multiplier="1:1" id="j5c-ir-EmI"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njx-8j-C19">
+                            <rect key="frame" x="0.0" y="99" width="375" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="ENO-4U-MNw"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="59o-Po-4ej" firstAttribute="top" secondItem="LY1-q7-Ujs" secondAttribute="top" constant="12" id="00t-FC-7I0"/>
+                        <constraint firstItem="Zbu-tb-Qs2" firstAttribute="centerY" secondItem="LY1-q7-Ujs" secondAttribute="centerY" id="DoW-56-qFD"/>
+                        <constraint firstAttribute="trailing" secondItem="njx-8j-C19" secondAttribute="trailing" id="FiS-HZ-e6q"/>
+                        <constraint firstItem="59o-Po-4ej" firstAttribute="leading" secondItem="LY1-q7-Ujs" secondAttribute="leading" constant="12" id="Fxp-ic-Yzm"/>
+                        <constraint firstAttribute="bottom" secondItem="59o-Po-4ej" secondAttribute="bottom" constant="12" id="GCV-qE-4cM"/>
+                        <constraint firstAttribute="bottom" secondItem="njx-8j-C19" secondAttribute="bottom" id="Mbu-cX-M13"/>
+                        <constraint firstAttribute="trailing" secondItem="Zbu-tb-Qs2" secondAttribute="trailing" constant="8" id="YSF-Cl-HPs"/>
+                        <constraint firstItem="njx-8j-C19" firstAttribute="leading" secondItem="LY1-q7-Ujs" secondAttribute="leading" id="h3A-3l-5HR"/>
+                        <constraint firstItem="Zbu-tb-Qs2" firstAttribute="leading" secondItem="59o-Po-4ej" secondAttribute="trailing" constant="8" id="iWR-5y-w3X"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="LY1-q7-Ujs" secondAttribute="bottom" id="2IM-QX-idF"/>
+                <constraint firstItem="LY1-q7-Ujs" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="9Jn-pr-zMG"/>
+                <constraint firstItem="LY1-q7-Ujs" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Efc-e9-p9l"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LY1-q7-Ujs" secondAttribute="trailing" id="PFu-7w-Kkr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="arrow_img_view" destination="Zbu-tb-Qs2" id="OVu-ab-pw9"/>
+                <outlet property="card_view" destination="LY1-q7-Ujs" id="VdV-Ls-x8g"/>
+                <outlet property="hieght_arrow_img_view" destination="eAf-Yg-yfB" id="VcZ-O6-TGf"/>
+                <outlet property="lbl_title" destination="59o-Po-4ej" id="lHR-1y-HuK"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="141.22938530734635"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow-down" width="32" height="32"/>
+    </resources>
+</document>
