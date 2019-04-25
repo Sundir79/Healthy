@@ -3,7 +3,7 @@
 //  HealthyLifeStyle
 //
 //  Created by Anupkumar on 24/04/19.
-//  Copyright © 2019 Anupkumar. All rights reserved.
+//  Copyrightt © 2019 Anupkumar. All rights reserved.
 //
 
 import UIKit
