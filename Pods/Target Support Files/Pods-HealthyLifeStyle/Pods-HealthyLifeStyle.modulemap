@@ -1,0 +1,6 @@
+framework module Pods_HealthyLifeStyle {
+  umbrella header "Pods-HealthyLifeStyle-umbrella.h"
+
+  export *
+  module * { export * }
+}

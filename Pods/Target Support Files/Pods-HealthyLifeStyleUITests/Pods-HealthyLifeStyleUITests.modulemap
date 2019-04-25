@@ -1,0 +1,6 @@
+framework module Pods_HealthyLifeStyleUITests {
+  umbrella header "Pods-HealthyLifeStyleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
